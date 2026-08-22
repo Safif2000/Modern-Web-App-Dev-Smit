@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+        <!-- Full Name -->
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your name">
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter password">
+        <br><br>
+
+        <!-- Age -->
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Enter your age">
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio"  name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Select Course -->
+        <label>Select Course:</label>
+        <select name="course">
+            <option value="" disabled selected>Select a Course</option>
+            <option value="web">Web Development</option>
+             <option value="graphics">Graphics Design</option>
+              <option value="digital">Digital Marketing</option>
+            <option value="python">Python</option>
+           
+        </select>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="03XXXXXXXXX">
+        <br><br>
+
+        <!-- Address -->
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label>
+        <br>
+        <input type="checkbox"  name="hobbies" value="coding">
+        <label >Coding</label>
+        <br>
+        <input type="checkbox"  name="hobbies" value="reading">
+        <label >Reading</label>
+        <br>
+        <input type="checkbox" name="hobbies" value="sports">
+        <label >Sports</label>
+        <br><br>
+
+        <!-- Upload Photo -->
+        <label>Upload Photo:</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <!-- Buttons -->
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
