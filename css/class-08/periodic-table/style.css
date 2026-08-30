@@ -1,0 +1,152 @@
+:root {
+  --color-green: #9ec87d;
+  --color-red: #d01f2e;
+  --color-blue: #1b93cd;
+  --color-light-blue: #9bc0e2;
+  --color-yellow: #f6a91d;
+  --color-orange: #fdce05;
+  --color-teal: #50edb8;
+  --color-gray: #c5c5c3;
+  --color-purple: #c197e1;
+  --color-pink: #f9b4cc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+ 
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* stack the two tables vertically */
+  align-items: center;
+  gap: 20px;
+}
+
+table {
+  width: 1000px;
+  border-collapse: separate;
+  border-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  text-align: center;
+  
+  width: 52px;
+  height: 60px;
+  vertical-align: top;
+  padding: 2px;
+}
+
+td[colspan] {
+  background-color: transparent;
+  border: none;
+}
+
+/* four-line cell content: number / symbol / name / weight */
+td .num {
+  display: block;
+  font-size: 9px;
+  text-align: center;
+}
+
+td .sym {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+td .name {
+  display: block;
+  font-size: 7px;
+}
+
+td .wt {
+  display: block;
+  font-size: 8px;
+}
+
+.green {
+  background-color: var(--color-green);
+  color: #fff;
+}
+.red {
+  background-color: var(--color-red);
+  color: #fff;
+}
+.yellow {
+  background-color: var(--color-yellow);
+  color: #fff;
+}
+.orange {
+  background-color: var(--color-orange);
+  color: #000;
+}
+.blue {
+  background-color: var(--color-blue);
+  color: #fff;
+}
+.light-blue {
+  background-color: var(--color-light-blue);
+  color: #000;
+}
+.teal {
+  background-color: var(--color-teal);
+  color: #000;
+}
+.gray {
+  background-color: var(--color-gray);
+  color: #000;
+}
+.purple {
+  background-color: var(--color-purple);
+  color: #000;
+}
+.pink {
+  background-color: var(--color-pink);
+  color: #000;
+}
+
+/* hover effects */
+td.green:hover {
+  background-color: color-mix(in srgb, var(--color-green) 80%, black);
+}
+td.red:hover {
+  background-color: color-mix(in srgb, var(--color-red) 80%, black);
+}
+td.yellow:hover {
+  background-color: color-mix(in srgb, var(--color-yellow) 80%, black);
+}
+td.orange:hover {
+  background-color: color-mix(in srgb, var(--color-orange) 80%, black);
+}
+td.blue:hover {
+  background-color: color-mix(in srgb, var(--color-blue) 80%, black);
+}
+td.light-blue:hover {
+  background-color: color-mix(in srgb, var(--color-light-blue) 80%, black);
+}
+td.teal:hover {
+  background-color: color-mix(in srgb, var(--color-teal) 80%, black);
+}
+td.gray:hover {
+  background-color: color-mix(in srgb, var(--color-gray) 80%, black);
+}
+td.purple:hover {
+  background-color: color-mix(in srgb, var(--color-purple) 80%, black);
+}
+td.pink:hover {
+  background-color: color-mix(in srgb, var(--color-pink) 80%, black);
+}
