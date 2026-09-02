@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.left-image {
+  flex: 1;
+  display: flex;
+}
+
+.left-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  flex: 1;
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 3px;
+  color: #333;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 14px;
+}
+
+.logo {
+  display: block;
+  margin: 0px auto 15px auto;
+  width: 95px;
+  height: 90px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #a0a0a0;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 20px;
+  color: #3b66ff;
+  text-decoration: none;
+}
+
+.login-button > button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b66ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button > button:hover {
+  background-color: #2a4db7;
+}
+
+.social-login-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.social-login {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background 0.3s;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.social-login:hover {
+  background-color: #e0e0e0;
+}
+
+.social-login_text {
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.social-login svg {
+  width: 15px;
+  height: 24px;
+}
+
+.google svg {
+  /* fill: red; */
+  width: 15px;
+}
+
+.fb svg {
+  fill: #1877f2;
+}
