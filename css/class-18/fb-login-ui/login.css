@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  /* outline: 1px solid red !important; */
+  
 }
 body {
   font-family: "Google Sans", sans-serif;
@@ -50,7 +50,7 @@ body {
 .imgbanner_container {
   position: relative;
   width: 430px;
-  /* background-color: red; */
+  
 }
 
 .left-portion > .imgbanner_container > img {
@@ -83,7 +83,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 105px;
- 
 }
 .form-container p {
   margin-bottom: 20px;
@@ -105,10 +104,7 @@ body {
   border: 1px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
 }
 
-/* .input-field ::placeholder {
-  color: #666A72;
-  font-size: 2rem;
-} */
+
 .input-field::placeholder {
   color: #666a72;
   font-size: 1rem;
@@ -193,6 +189,3 @@ body {
   width: 60px;
   height: 30px;
 }
-
-
-
