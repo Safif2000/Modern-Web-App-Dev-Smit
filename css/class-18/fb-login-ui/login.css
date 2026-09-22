@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  /* outline: 1px solid red !important; */
+}
+body {
+  font-family: "Google Sans", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left-portion {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.fb-logo {
+  width: 72px;
+  height: 72px;
+  color: #0064e0;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.text-blue {
+  color: #1877f2;
+}
+
+.left-portion h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #111112;
+  line-height: 1.2;
+}
+.text-container {
+  position: relative;
+  left: 23px;
+  top: 50px;
+  width: 183px;
+}
+
+.imgbanner_container {
+  position: relative;
+  width: 430px;
+  /* background-color: red; */
+}
+
+.left-portion > .imgbanner_container > img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: -49px;
+  bottom: 34px;
+}
+
+.right-portion {
+  width: 50%;
+  border-left: 1px solid #dfe2e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  position: relative;
+}
+.right-portion > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 105px;
+ 
+}
+.form-container p {
+  margin-bottom: 20px;
+  color: #111112;
+  font-weight: 600;
+}
+.form-container > .email-container,
+.form-container > .password-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.email-container > .input-field,
+.password-container > .input-field {
+  width: 94%;
+  height: 40px;
+  border-radius: 19px;
+  padding: 10px 16px;
+  border: 1px solid light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+/* .input-field ::placeholder {
+  color: #666A72;
+  font-size: 2rem;
+} */
+.input-field::placeholder {
+  color: #666a72;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.input-field:focus {
+  outline: none;
+  border: 1px solid #111112;
+}
+
+.btn-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.login-btn-container {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.login-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #0064e0;
+  color: #ffffff;
+  font-size: 1rem;
+
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #0056c9;
+}
+
+.forgot-btn-container {
+  width: 100%;
+  margin-bottom: 56px;
+}
+.forgot-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #111112;
+  font-weight: 500;
+  font-size: 1rem;
+
+  border: none;
+  text-align: center;
+}
+.forgot-btn:hover {
+  background-color: #f2f2f2;
+  color: #111112;
+}
+
+.create-btn-container {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.create-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #1877f2;
+  font-size: 1rem;
+  border: 1px solid #1877f2;
+}
+.create-btn:hover {
+  background-color: #f2f2f2;
+  color: #1877f2;
+}
+.meta-btn svg {
+  width: 60px;
+  height: 30px;
+}
+
+
+
