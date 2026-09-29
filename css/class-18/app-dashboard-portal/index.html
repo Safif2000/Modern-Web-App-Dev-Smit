@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App-Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <nav>
+          <!-- header-left_portion -->
+          <div class="header-left_portion">
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="1em"
+              height="1em"
+              class="fb-logo x1lliihq x2lah0s x1k90msu x2h7rmj x1qfuztq x1fey0fg xy75621 xni59qk"
+            >
+              <path
+                d="M22 12.037C22 6.494 17.523 2 12 2S2 6.494 2 12.037c0 4.707 3.229 8.656 7.584 9.741v-6.674H7.522v-3.067h2.062v-1.322c0-3.416 1.54-5 4.882-5 .634 0 1.727.125 2.174.25v2.78a12.807 12.807 0 0 0-1.155-.037c-1.64 0-2.273.623-2.273 2.244v1.085h3.266l-.56 3.067h-2.706V22C18.164 21.4 22 17.168 22 12.037z"
+              ></path>
+            </svg>
+
+            <div class="header_searchbox">
+              <i class="fa-solid fa-magnifying-glass" style="color: black"></i>
+              <input type="text" placeholder="Search Facebook" />
+            </div>
+          </div>
+
+          <!-- header-left_portion ends -->
+
+          <!-- header-center_portion -->
+          <div class="header-center_portion">
+            <button class="active">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--primary-button-background)"
+              >
+                <path
+                  d="M9.464 1.286C10.294.803 11.092.5 12 .5s1.707.303 2.537.786c.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053s-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006S3.025 5.98 4.416 4.938L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5z"
+                />
+              </svg>
+            </button>
+
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--secondary-icon)"
+              >
+                <path
+                  d="M10.996 12.132A1 1 0 0 0 9.5 13v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736z"
+                />
+                <path
+                  d="M12.075 1h-.15C9.632 1 7.81 1 6.38 1.192c-1.472.198-2.674.616-3.623 1.565-.949.95-1.367 2.15-1.565 3.623C1 7.81 1 9.632 1 11.925v.15c0 2.293 0 4.116.192 5.545.198 1.472.616 2.674 1.565 3.623.95.949 2.15 1.367 3.623 1.565C7.81 23 9.632 23 11.925 23h.15c2.293 0 4.116 0 5.545-.192 1.472-.198 2.674-.616 3.623-1.565.949-.95 1.367-2.15 1.565-3.623.192-1.43.192-3.252.192-5.545v-.15c0-2.293 0-4.116-.192-5.545-.198-1.472-.616-2.674-1.565-3.623-.95-.949-2.15-1.367-3.623-1.565C16.19 1 14.368 1 12.075 1M4.172 4.172c.515-.516 1.224-.83 2.475-.998l.183-.023L8.113 7H3.132q.02-.182.042-.353c.168-1.25.482-1.96.998-2.475M10.22 7 8.895 3.023C9.778 3 10.801 3 12 3q.962-.001 1.78.004L15.114 7zm6.253 2h4.507c.02.86.02 1.848.02 3 0 2.385-.002 4.074-.174 5.353-.168 1.25-.482 1.96-.998 2.475-.515.516-1.224.83-2.475.998-1.28.172-2.968.174-5.353.174s-4.074-.002-5.353-.174c-1.25-.168-1.96-.482-2.475-.998-.516-.515-.83-1.224-.998-2.475C3.002 16.073 3 14.385 3 12c0-1.152 0-2.14.02-3h13.454zm.747-2-1.316-3.949c.537.026 1.016.065 1.448.123 1.25.168 1.96.482 2.475.998.516.515.83 1.224.998 2.475q.023.171.042.353z"
+                />
+              </svg>
+            </button>
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--secondary-icon)"
+              >
+                <path
+                  d="M12.496 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0m4-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-9 2.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0M5.5 15a5 5 0 0 0-5 5 3 3 0 0 0 3 3h8.006a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm-3 5a3 3 0 0 1 3-3h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1m12-9.5a5 5 0 0 0-.37.014 1 1 0 0 0 .146 1.994q.111-.008.224-.008h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1h-3.398a1 1 0 1 0 0 2h3.398a3 3 0 0 0 3-3 5 5 0 0 0-5-5z"
+                />
+              </svg>
+            </button>
+
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--secondary-icon)"
+              >
+                <path
+                  d="M1.588 3.227A3.125 3.125 0 0 1 4.58 1h14.84c1.38 0 2.597.905 2.993 2.227l.816 2.719a6.5 6.5 0 0 1 .272 1.854A5.18 5.18 0 0 1 22 11.455v4.615c0 1.355 0 2.471-.119 3.355-.125.928-.396 1.747-1.053 2.403-.656.657-1.475.928-2.403 1.053-.884.12-2 .119-3.354.119H8.929c-1.354 0-2.47 0-3.354-.119-.928-.125-1.747-.396-2.403-1.053-.657-.656-.929-1.475-1.053-2.403-.12-.884-.119-2-.119-3.354V11.5l.001-.045A5.18 5.18 0 0 1 .5 7.8c0-.628.092-1.252.272-1.854zM10 21h4v-3.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5zm6-.002c.918-.005 1.608-.025 2.159-.099.706-.095 1.033-.262 1.255-.485.223-.222.39-.55.485-1.255.099-.735.101-1.716.101-3.159v-3.284a5.2 5.2 0 0 1-1.7.284 5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 12 13a5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 5.7 13a5.2 5.2 0 0 1-1.7-.284V16c0 1.442.002 2.424.1 3.159.096.706.263 1.033.486 1.255.222.223.55.39 1.255.485.551.074 1.24.094 2.159.1V17.5a2.5 2.5 0 0 1 2.5-2.5h3a2.5 2.5 0 0 1 2.5 2.5zM4.581 3c-.497 0-.935.326-1.078.802l-.815 2.72A4.5 4.5 0 0 0 2.5 7.8a3.2 3.2 0 0 0 5.6 2.117 1 1 0 0 1 1.5 0A3.2 3.2 0 0 0 12 11a3.2 3.2 0 0 0 2.4-1.083 1 1 0 0 1 1.5 0A3.2 3.2 0 0 0 21.5 7.8c0-.434-.063-.865-.188-1.28l-.816-2.72A1.125 1.125 0 0 0 19.42 3H4.58z"
+                />
+              </svg>
+            </button>
+
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--secondary-icon)"
+              >
+                <path
+                  d="M.5 12c0 6.351 5.149 11.5 11.5 11.5S23.5 18.351 23.5 12 18.351.5 12 .5.5 5.649.5 12zm2 0c0-.682.072-1.348.209-1.99a2 2 0 0 1 0 3.98A9.539 9.539 0 0 1 2.5 12zm.84-3.912A9.502 9.502 0 0 1 12 2.5a9.502 9.502 0 0 1 8.66 5.588 4.001 4.001 0 0 0 0 7.824 9.514 9.514 0 0 1-1.755 2.613A5.002 5.002 0 0 0 14 14.5h-4a5.002 5.002 0 0 0-4.905 4.025 9.515 9.515 0 0 1-1.755-2.613 4.001 4.001 0 0 0 0-7.824zM12 5a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0zm11.291 1.01a9.538 9.538 0 0 1 0 3.98 2 2 0 0 1 0-3.98zM16.99 20.087A9.455 9.455 0 0 1 12 21.5c-1.83 0-3.54-.517-4.99-1.414a1.004 1.004 0 0 1-.01-.148V19.5a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v.438a1 1 0 0 1-.01.148z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <!-- header-center_portion ends -->
+
+          <!-- header-rightcorner_portion -->
+          <div class="header-rightcorner_portion">
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="currentColor"
+                aria-hidden="true"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--primary-icon)"
+              >
+                <path
+                  d="M18.5 1A1.5 1.5 0 0 0 17 2.5v3A1.5 1.5 0 0 0 18.5 7h3A1.5 1.5 0 0 0 23 5.5v-3A1.5 1.5 0 0 0 21.5 1h-3zm0 8a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 21.5 9h-3zm-16 8A1.5 1.5 0 0 0 1 18.5v3A1.5 1.5 0 0 0 2.5 23h3A1.5 1.5 0 0 0 7 21.5v-3A1.5 1.5 0 0 0 5.5 17h-3zm8 0A1.5 1.5 0 0 0 9 18.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm8 0a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3a1.5 1.5 0 0 0-1.5-1.5h-3zm-16-8A1.5 1.5 0 0 0 1 10.5v3A1.5 1.5 0 0 0 2.5 15h3A1.5 1.5 0 0 0 7 13.5v-3A1.5 1.5 0 0 0 5.5 9h-3zm0-8A1.5 1.5 0 0 0 1 2.5v3A1.5 1.5 0 0 0 2.5 7h3A1.5 1.5 0 0 0 7 5.5v-3A1.5 1.5 0 0 0 5.5 1h-3zm8 0A1.5 1.5 0 0 0 9 2.5v3A1.5 1.5 0 0 0 10.5 7h3A1.5 1.5 0 0 0 15 5.5v-3A1.5 1.5 0 0 0 13.5 1h-3zm0 8A1.5 1.5 0 0 0 9 10.5v3a1.5 1.5 0 0 0 1.5 1.5h3a1.5 1.5 0 0 0 1.5-1.5v-3A1.5 1.5 0 0 0 13.5 9h-3z"
+                ></path>
+              </svg>
+            </button>
+
+            <button class="parent-circle">
+              <div class="circle">2</div>
+              <svg
+                viewBox="0 0 12 12"
+                width="20"
+                height="20"
+                fill="currentColor"
+                aria-hidden="true"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--primary-icon)"
+              >
+                <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                  <path
+                    d="m106.868 921.248-1.892 2.925a.32.32 0 0 1-.443.094l-1.753-1.134a.2.2 0 0 0-.222.003l-1.976 1.363c-.288.199-.64-.143-.45-.437l1.892-2.925a.32.32 0 0 1 .443-.095l1.753 1.134a.2.2 0 0 0 .222-.003l1.976-1.363c.288-.198.64.144.45.438m-3.368-4.251c-3.323 0-5.83 2.432-5.83 5.658 0 1.642.652 3.128 1.834 4.186a.331.331 0 0 1 .111.234l.03 1.01a.583.583 0 0 0 .82.519l1.13-.5a.32.32 0 0 1 .22-.015c.541.148 1.108.223 1.685.223 3.323 0 5.83-2.432 5.83-5.657 0-3.226-2.507-5.658-5.83-5.658"
+                    transform="translate(-450 -1073.5) translate(352.5 156.845)"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <button>
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="currentColor"
+                aria-hidden="true"
+                class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+                style="--x-color: var(--primary-icon)"
+              >
+                <path
+                  d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"
+                ></path>
+              </svg>
+            </button>
+
+            <button>
+              <img
+                src="https://scontent.fkhi17-2.fna.fbcdn.net/v/t39.30808-1/786939338_4518475905147185_7701902160274118901_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s40x40&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ZDQq40qzm_8Q7kNvwEa89P6&_nc_oc=AdqWT2kx9X1_PYnCJlW_O_X6TwRUmL3ZRbn1DPrkmUaRxcde-QQKtz9H5kwDBkmkqDY&_nc_zt=24&_nc_ht=scontent.fkhi17-2.fna&_nc_gid=twIffU1yGzvnObo8sXHWQw&_nc_ss=7b2a8&oh=00_AQIX_y3M2s0mStRydTIz1X_SWUMzSNtnDfNZD_-FkERYYw&oe=6ABD3B1B"
+              />
+            </button>
+          </div>
+
+          <!-- header-rightcorner_portion ends -->
+        </nav>
+      </div>
+
+      <section class="main-area">
+        <div class="left-sidebar">
+          <div class="sidebar-item">
+            <img
+              src="https://scontent.fkhi17-2.fna.fbcdn.net/v/t39.30808-1/786939338_4518475905147185_7701902160274118901_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s40x40&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ZDQq40qzm_8Q7kNvwEa89P6&_nc_oc=AdqWT2kx9X1_PYnCJlW_O_X6TwRUmL3ZRbn1DPrkmUaRxcde-QQKtz9H5kwDBkmkqDY&_nc_zt=24&_nc_ht=scontent.fkhi17-2.fna&_nc_gid=twIffU1yGzvnObo8sXHWQw&_nc_ss=7b2a8&oh=00_AQIX_y3M2s0mStRydTIz1X_SWUMzSNtnDfNZD_-FkERYYw&oe=6ABD3B1B"
+            />
+            <p>Syed Muhammad Afif</p>
+          </div>
+
+          <div class="sidebar-item">
+            <img src="./images/meta.svg" alt="meta" width="30px" />
+            <p>Meta AI</p>
+          </div>
+
+          <div class="sidebar-item">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--x-color: var(--secondary-icon)"
+            >
+              <path
+                d="M12.496 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0m4-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-9 2.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0M5.5 15a5 5 0 0 0-5 5 3 3 0 0 0 3 3h8.006a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm-3 5a3 3 0 0 1 3-3h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1m12-9.5a5 5 0 0 0-.37.014 1 1 0 0 0 .146 1.994q.111-.008.224-.008h4.006a3 3 0 0 1 3 3 1 1 0 0 1-1 1h-3.398a1 1 0 1 0 0 2h3.398a3 3 0 0 0 3-3 5 5 0 0 0-5-5z"
+              ></path>
+            </svg>
+            <p>Friends</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>Memories</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-regular fa-bookmark"></i>
+            <p>Saved</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-people-group"></i>
+            <p>Groups</p>
+          </div>
+
+          <div class="sidebar-item">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="x14rh7hd x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq"
+              style="--x-color: var(--secondary-icon)"
+            >
+              <path
+                d="M10.996 12.132A1 1 0 0 0 9.5 13v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736z"
+              ></path>
+              <path
+                d="M12.075 1h-.15C9.632 1 7.81 1 6.38 1.192c-1.472.198-2.674.616-3.623 1.565-.949.95-1.367 2.15-1.565 3.623C1 7.81 1 9.632 1 11.925v.15c0 2.293 0 4.116.192 5.545.198 1.472.616 2.674 1.565 3.623.95.949 2.15 1.367 3.623 1.565C7.81 23 9.632 23 11.925 23h.15c2.293 0 4.116 0 5.545-.192 1.472-.198 2.674-.616 3.623-1.565.949-.95 1.367-2.15 1.565-3.623.192-1.43.192-3.252.192-5.545v-.15c0-2.293 0-4.116-.192-5.545-.198-1.472-.616-2.674-1.565-3.623-.95-.949-2.15-1.367-3.623-1.565C16.19 1 14.368 1 12.075 1M4.172 4.172c.515-.516 1.224-.83 2.475-.998l.183-.023L8.113 7H3.132q.02-.182.042-.353c.168-1.25.482-1.96.998-2.475M10.22 7 8.895 3.023C9.778 3 10.801 3 12 3q.962-.001 1.78.004L15.114 7zm6.253 2h4.507c.02.86.02 1.848.02 3 0 2.385-.002 4.074-.174 5.353-.168 1.25-.482 1.96-.998 2.475-.515.516-1.224.83-2.475.998-1.28.172-2.968.174-5.353.174s-4.074-.002-5.353-.174c-1.25-.168-1.96-.482-2.475-.998-.516-.515-.83-1.224-.998-2.475C3.002 16.073 3 14.385 3 12c0-1.152 0-2.14.02-3h13.454zm.747-2-1.316-3.949c.537.026 1.016.065 1.448.123 1.25.168 1.96.482 2.475.998.516.515.83 1.224.998 2.475q.023.171.042.353z"
+              ></path>
+            </svg>
+            <p>Reels</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-shop"></i>
+            <p>Marketplace</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-rss"></i>
+            <p>Feeds</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-calendar-plus"></i>
+            <p>Events</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-chart-simple"></i>
+            <p>Ads Manager</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-gift"></i>
+            <p>Birthdays</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-shapes"></i>
+            <p>Chat with AIs</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-gamepad"></i>
+            <p>Gaming Video</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <p>Messenger</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <p>Messenger Kids</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-credit-card"></i>
+            <p>Orders and payments</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-flag"></i>
+            <p>Pages</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-gamepad"></i>
+            <p>Play games</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-brands fa-adversal"></i>
+            <p>Your Ad Activity</p>
+          </div>
+
+          <div class="sidebar-item">
+            <i class="fa-solid fa-chevron-up"></i>
+            <p>See less</p>
+          </div>
+        </div>
+
+        <div class="main-feed_area">
+          <div class="feed-header">
+            <div class="left-area">
+              <img
+                src="https://scontent.fkhi17-2.fna.fbcdn.net/v/t39.30808-1/786939338_4518475905147185_7701902160274118901_n.jpg?stp=cp0_dst-jpg_tt6&amp;cstp=mx1080x1080&amp;ctp=s40x40&amp;_nc_cat=102&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=e99d92&amp;_nc_ohc=ZDQq40qzm_8Q7kNvwEa89P6&amp;_nc_oc=AdqWT2kx9X1_PYnCJlW_O_X6TwRUmL3ZRbn1DPrkmUaRxcde-QQKtz9H5kwDBkmkqDY&amp;_nc_zt=24&amp;_nc_ht=scontent.fkhi17-2.fna&amp;_nc_gid=twIffU1yGzvnObo8sXHWQw&amp;_nc_ss=7b2a8&amp;oh=00_AQIX_y3M2s0mStRydTIz1X_SWUMzSNtnDfNZD_-FkERYYw&amp;oe=6ABD3B1B"
+              />
+              <button>What's on your mind, Syed Muhammad ?</button>
+            </div>
+
+            <div class="right-area">
+              <i class="fa-solid fa-video"></i>
+              <i class="fa-regular fa-images"></i>
+              <i class="fa-regular fa-face-grin"></i>
+            </div>
+          </div>
+
+          <div class="feed-card-div">
+            <div class="card-area">
+              <div class="card-img">
+                <img src="./images/afif.jpg" alt="my-photo" />
+                <div class="card-title-portion">
+                  <div class="card-plus-circle">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <p>create story</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-area">
+              <div class="card-imgfull">
+                <img src="./images/post-image.jpg" alt="post image" />
+                <div class="card-circle1">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card-area">
+              <div class="card-imgfull">
+                <img src="./images/post-image.jpg" alt="post image" />
+                <div class="card-circle1">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card-area">
+              <div class="card-imgfull">
+                <img src="./images/post-image.jpg" alt="post image" />
+                <div class="card-circle1">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card-area">
+              <div class="card-imgfull">
+                <img src="./images/post-image.jpg" alt="post image" />
+                <div class="card-circle1">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card-area">
+              <div class="card-imgfull">
+                <img src="./images/post-image.jpg" alt="post image" />
+                <div class="card-circle1">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="posting-content-container">
+            <div class="posting-area">
+              <div class="posting-info-header">
+                <img src="./images/post-profile.png" alt="avatar" />
+                <div class="posting-info-extra-detail">
+                  <p>
+                    comic book .
+                    <a href="#" style="color: #0866ff; text-decoration: none"
+                      >Follow</a
+                    >
+                  </p>
+                  <p>22 hours ago <i class="fa-solid fa-earth-americas"></i></p>
+                </div>
+
+                <div class="posting-info-head-action">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+
+              <div class="posting-body">
+                <div class="poster-img">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="postfooter">
+                <div class="social-engage">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <span>23</span>
+                  <i class="fa-regular fa-comment"></i>
+                  <span>29</span>
+                  <i class="fa-solid fa-share"></i>
+                  <span>3</span>
+                </div>
+
+                <div class="total-engage">
+                  <i class="fa-solid fa-thumbs-up" style="color: #0866ff"></i>
+                  <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="posting-area">
+              <div class="posting-info-header">
+                <img src="./images/post-profile.png" alt="avatar" />
+                <div class="posting-info-extra-detail">
+                  <p>
+                    comic book .
+                    <a href="#" style="color: #0866ff; text-decoration: none"
+                      >Follow</a
+                    >
+                  </p>
+                  <p>22 hours ago <i class="fa-solid fa-earth-americas"></i></p>
+                </div>
+
+                <div class="posting-info-head-action">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+
+              <div class="posting-body">
+                <div class="poster-img">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="postfooter">
+                <div class="social-engage">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <span>23</span>
+                  <i class="fa-regular fa-comment"></i>
+                  <span>29</span>
+                  <i class="fa-solid fa-share"></i>
+                  <span>3</span>
+                </div>
+
+                <div class="total-engage">
+                  <i class="fa-solid fa-thumbs-up" style="color: #0866ff"></i>
+                  <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="posting-area">
+              <div class="posting-info-header">
+                <img src="./images/post-profile.png" alt="avatar" />
+                <div class="posting-info-extra-detail">
+                  <p>
+                    comic book .
+                    <a href="#" style="color: #0866ff; text-decoration: none"
+                      >Follow</a
+                    >
+                  </p>
+                  <p>22 hours ago <i class="fa-solid fa-earth-americas"></i></p>
+                </div>
+
+                <div class="posting-info-head-action">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+
+              <div class="posting-body">
+                <div class="poster-img">
+                  <img src="./images/post-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="postfooter">
+                <div class="social-engage">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <span>23</span>
+                  <i class="fa-regular fa-comment"></i>
+                  <span>29</span>
+                  <i class="fa-solid fa-share"></i>
+                  <span>3</span>
+                </div>
+
+                <div class="total-engage">
+                  <i class="fa-solid fa-thumbs-up" style="color: #0866ff"></i>
+                  <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-sidebar">
+          <div class="birthday-notification">
+            <p>Birthdays</p>
+            <div class="birthday-div">
+              <i class="fa-solid fa-gift"></i>
+              <p>Syed birthday is today.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
