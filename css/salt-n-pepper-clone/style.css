@@ -810,9 +810,9 @@ footer {
 }
 
 @media screen and (max-width:440px) {
-    .branch-heading {
+    /* .branch-heading {
         width: 320px;
-    }
+    } */
     .village-heading h2 {
     
     font-size: 32px;
@@ -937,23 +937,38 @@ nav > ul > li > a > button > span
     width: 200px;
 }
 
-.branch-heading{
+/* .branch-heading{
 
    width: 377px;
-}
+} */
+     .branch-heading {
+        width: 320px;
+    }
 .branch-heading > h2{
       font-size: 32px;
-
+    line-height: 32px;
 }
 
 .branch-heading span{
- font-size: 32px;
- line-height: 62px;
+ font-size: 32px;       
+ line-height: normal;
 
 }
 
+.village-heading h2
+{font-size: 32px;
+    line-height: unset;
+   }
+.village-heading h2 > span{
+   
+    font-size: 32px;
+    line-height: unset;
+   
+}
+
 .express-heading {
-width: 377px;
+/* width: 377px; */
+ width: 320px;
 }
  .express-heading > h2{
       font-size: 32px;
