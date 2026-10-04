@@ -105,6 +105,10 @@ nav > ul > li > a > button > span
        margin-left: 6px;
  }
 
+ .mobile-bars{
+    display:none
+ }
+
 /* homebanner section starts */
 
 .homebanner{
@@ -803,5 +807,195 @@ footer {
 
 .bottom-container a:hover {
   color: #ffffff;
+}
+
+@media screen and (max-width:440px) {
+    .branch-heading {
+        width: 320px;
+    }
+    .village-heading h2 {
+    
+    font-size: 32px;
+}
+.village-card-row {
+    flex-direction: column;
+}
+.village-address > a > button {  
+    font-size: 15px;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+.branch1-row, .branch2-row {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.branch1-imgbox, .branch1-address, .branch2-imgbox, .branch2-address {
+    width: 300px;
+   
+}
+
+
+}
+@media screen and (max-width:576px) {
+  
+nav {
+  padding: 9px 27px;
+}
+   
+    .mobile-bars {
+        display: block;
+        border-radius: 0px;
+        border: none;
+        font-size: 20px;
+    }
+
+
+/* Logo */
+
+       .logoheader-div {
+        width: 100px;
+        height: 60px;
+        margin-top: 5px;
+    }
+
+.logoheader-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+/* Normal links */
+
+nav ul li:nth-child(1),
+nav ul li:nth-child(2),
+nav ul li:nth-child(3) {
+    margin-right: 12px;
+           margin-top: 3px;
+}
+
+/* Buttons */
+
+    nav button {
+        font-size: 10px;
+        padding: 9px 10px;
+      white-space: nowrap;
+    }
+
+/* Order Online button */
+
+nav ul li:last-child button {
+    padding: 9px 11px;
+}
+
+nav > ul > li > a > button > span
+{
+       background-color: #fff;
+       color: #dc3545;
+       width: 27px;
+       height: 27px;
+       padding: 2px 2px;
+       border-radius: 30px;
+       margin-left: 6px;
+ }
+ .ourbrands-heading {
+    width: 377px;
+   
+}
+ .ourbrands-heading h2 {
+  font-size: 32px;
+        line-height: 30px;
+}
+
+ .ourbrands-heading span {
+    font-size: 32px;
+}
+
+.cards-row {
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 200px;
+}
+
+.branch-heading{
+
+   width: 377px;
+}
+.branch-heading > h2{
+      font-size: 32px;
+
+}
+
+.branch-heading span{
+ font-size: 32px;
+ line-height: 62px;
+
+}
+
+.express-heading {
+width: 377px;
+}
+ .express-heading > h2{
+      font-size: 32px;
+      line-height: 36px;
+      
+}
+
+.express-heading span{
+ font-size: 32px;
+
+}
+
+.express-card-row1 > .maincard {
+    width: unset;
+}
+
+.express-card-row1 , .express-card-row2 , .express-card-row3 , .express-card-row4 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-express-cards-row1 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-express-cards-row1 > .express-card {
+    width: unset;
+ 
+}
+.new-express-heading h2 {  
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+.new-express-heading span {
+    font-size: 32px;
+  
+}
+
+  
 }
 
