@@ -1903,7 +1903,16 @@ padding: 20px;
     align-items: flex-start;
   }
 }
+@media only screen and (max-width: 400px){
+    .main {
+        
+      max-width: 431px;
+    }
 
+    .banner-section {
+        padding: 22px 27px;
+    }
+}
 @media only screen and (max-width: 431px){
       .main {
         width: 100%;
@@ -1943,9 +1952,11 @@ padding: 20px;
   
         display: none;
     }
-.how-it-works-header {
-    gap: 17px;
-}
+    .how-it-works-header {
+        gap: 9px;
+        display: flex;
+        flex-direction: column;
+    }
     .how-it-works-header h2 {
         font-size: 15px;
         white-space: nowrap;
@@ -1973,9 +1984,9 @@ padding: 20px;
         padding: 20px;
     }
 
-        .freelancer-section {
+        /* .freelancer-section {
         padding: 25px 33px 10px 53px;
-    }
+    } */
 
     .freelancer-category-card h3 {
     font-size: 15px;
@@ -2003,6 +2014,10 @@ padding: 20px;
     text-align: center;
     justify-content: center;
 }
+    .banner-header {
+        max-width: 388px;
+        margin: 0 auto;
+    }
 .banner-head-left > h4 {
     font-size: 13px;
   
@@ -2010,6 +2025,10 @@ padding: 20px;
 .get-started-btn {
     color: #000;
     font-size: 14px;
+}
+.achievements h2 {
+    text-align: center;
+    font-size: 25px;
 }
 
 }
