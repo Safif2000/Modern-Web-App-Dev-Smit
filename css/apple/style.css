@@ -9,15 +9,12 @@
       format("woff"),
     url("/wss/fonts/SF-Pro-Display/v3/sf-pro-display_ultralight.ttf")
       format("truetype");
-  /* (C) 2019 Apple Inc. All rights reserved.
- */
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -45,7 +42,6 @@ nav ul > li {
   list-style: none;
 }
 nav ul > li > a {
-  /* color: #ffffff; */
   color: rgba(255, 255, 255, 0.8);
 
   text-decoration: none;
@@ -58,19 +54,11 @@ li > a > img {
   transform: translatey(4px);
 }
 
-/* .hero-section{
-    position: relative;
-    background-color: #000;
-    width: 100%;
-  
-} */
-
 .hero-section {
   position: relative;
   background-color: #000;
   width: 100%;
   height: 680px;
-  /* background: red; */
 }
 
 .hero-top-content {
@@ -170,31 +158,6 @@ li > a > img {
   justify-content: center;
 }
 
-/* .tile-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-
-.tile-content-split {
-    justify-content: space-between;
-}
-
-
-.tile-image-wrapper {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 580px;
-}
-
-.tile-image-wrapper img {
-    display: block;
-    width: 100%;
-    height: 100%;
-} */
-
 .watch-section {
   padding: 80px 0;
   text-align: center;
@@ -220,422 +183,378 @@ li > a > img {
   background-repeat: no-repeat;
 }
 
-
-.watch-section-content{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    height: 442px;
+.watch-section-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 442px;
 }
-.watch-content-box1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 60px;
-    gap: 10px;
+.watch-content-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 60px;
+  gap: 10px;
 }
 .watch-content-box1 > h2 {
-color:#fff;
-font-size: 52px;
-font-weight: 400;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 400;
 }
 
- .watch-content-box1 img {
-    
-    filter: brightness(0) invert(1);
-    width: 40px;
+.watch-content-box1 img {
+  filter: brightness(0) invert(1);
+  width: 40px;
 }
-.watch-content-box2 > sup{
-color:#fff;
-}
- 
-.watch-content-box2 h3{
-    font-size: 24px;
-    color:#fff;
-    font-weight: 300;
+.watch-content-box2 > sup {
+  color: #fff;
 }
 
-
+.watch-content-box2 h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+}
 
 /* =========================
    TECH SECTION
 ========================= */
 
 .tech-section {
-    width: 100%;
-    padding: 12px;
+  width: 100%;
+  padding: 12px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-
 
 /* =========================
    ROW
 ========================= */
 
 .tech-row {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
-
 
 /* =========================
    CARD
 ========================= */
 
 .tech-card {
-    position: relative;
+  position: relative;
 
-    width: 50%;
-    height: 580px;
+  width: 50%;
+  height: 580px;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    text-align: center;
+  text-align: center;
 }
-
 
 /* =========================
    BACKGROUND IMAGES
 ========================= */
 
 .tech1 {
-    background-image: url("./images/watch-new.jpg");
+  background-image: url("./images/watch-new.jpg");
 }
 
 .tech2 {
-    background-image: url("./images/macbook.jpg");
+  background-image: url("./images/macbook.jpg");
 }
 
 .tech3 {
-    background-image: url("./images/ipad-air.jpg");
+  background-image: url("./images/ipad-air.jpg");
 }
 
 .tech4 {
-    background-image: url("./images/upgrade.jpg");
+  background-image: url("./images/upgrade.jpg");
 }
-
 
 .tech5 {
-    background-image: url("./images/apple-card.jpg");
+  background-image: url("./images/apple-card.jpg");
 }
 
-
-
 .tech6 {
-    display: flex;
+  display: flex;
   background-image: url("./images/education.jpg");
-    align-items: flex-end;
-    justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .tech6 .tech-content {
-    padding-top: 0;
-    padding-bottom: 45px;
-    color:#fff;
+  padding-top: 0;
+  padding-bottom: 45px;
+  color: #fff;
 }
 
-.tech6 > .tech-content > h2 , .tech6 > .tech-content > p{
-  color:#fff;
+.tech6 > .tech-content > h2,
+.tech6 > .tech-content > p {
+  color: #fff;
 }
 
 .tech-content {
-    width: 100%;
-    padding-top: 55px;
+  width: 100%;
+  padding-top: 55px;
 }
-
 
 .tech-content h2 {
-    margin: 0;
-    font-size: 28px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: #1d1d1f;
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #1d1d1f;
 }
-
 
 /* Watch heading */
 
 .tech1 .tech-content h2 {
-    color: #fff;
-    font-size: 25px;
+  color: #fff;
+  font-size: 25px;
 }
-
-
-
 
 .tech3 .tech-content h2 span {
-    color: #1687d9;
-    font-style: italic;
-    
+  color: #1687d9;
+  font-style: italic;
 }
 
-
 .tech-content p {
-    margin: 7px 0 12px;
-    font-size: 15px;
-    line-height: 1.3;
-    color: #1d1d1f;
+  margin: 7px 0 12px;
+  font-size: 15px;
+  line-height: 1.3;
+  color: #1d1d1f;
 }
 
 .tech1 .tech-content p {
-    color: #fff;
+  color: #fff;
 }
-
 
 .tech-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    gap: 12px;
+  gap: 12px;
 }
-
-
-
 
 .tech-buttons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-    height: 38px;
-    padding: 0 17px;
+  height: 38px;
+  padding: 0 17px;
 
-    border-radius: 25px;
+  border-radius: 25px;
 
-    font-size: 14px;
-    text-decoration: none;
+  font-size: 14px;
+  text-decoration: none;
 
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
-
-
 .primary-btn {
-    background-color: #0077ed;
-    color: #fff;
+  background-color: #0077ed;
+  color: #fff;
 }
 
 .primary-btn:hover {
-    background-color: #006edb;
+  background-color: #006edb;
 }
 
-
-
 .secondary-btn {
-    border: 1px solid #0077ed;
+  border: 1px solid #0077ed;
 
-    color: #0077ed;
-    background-color: transparent;
+  color: #0077ed;
+  background-color: transparent;
 }
 
 .secondary-btn:hover {
-    background-color: #0077ed;
-    color: #fff;
+  background-color: #0077ed;
+  color: #fff;
 }
-
-
-
 
 .cards-section {
-    width: 100%;
-    padding: 40px 0;
-    overflow: hidden;
-        background-color: #f5f5f7;
+  width: 100%;
+  padding: 40px 0;
+  overflow: hidden;
+  background-color: #f5f5f7;
 }
 
-.cards-section >h2{
+.cards-section > h2 {
   text-align: center;
   font-size: 52px;
   margin-bottom: 20px;
 }
 
 .cards-row {
-    width: 100%;
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
-
-
 
 .feature-card {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    flex-shrink: 0;
-    border-radius: 5px;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 5px;
 }
-
-
 
 .side-card {
-    width: 24%;
+  width: 24%;
 }
-
-
 
 .center-card {
-    width: 60%;
-    z-index: 2;
+  width: 60%;
+  z-index: 2;
 }
-
-
-
 
 .feature-card > img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    left: 0;
-    top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  left: 0;
+  top: 0;
 }
 
-
 .side-card > img {
-    width: 135%;
-    height: 120%;
-    max-width: none;
-    object-fit: cover;
+  width: 135%;
+  height: 120%;
+  max-width: none;
+  object-fit: cover;
 }
 
 .side-card:first-child > img {
-    right: 0;
-    left: auto;
+  right: 0;
+  left: auto;
 }
 
 .side-card:last-child > img {
-    left: 0;
+  left: 0;
 }
 
-
 .card-logo {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    z-index: 3;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 3;
 }
 
 .card-logo img {
-    width: 80px;
-    height: auto;
-    object-fit: contain;
+  width: 80px;
+  height: auto;
+  object-fit: contain;
 }
 
 .card-bottom {
-    position: absolute;
-    left: 25px;
-    right: 25px;
-    bottom: 25px;
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  bottom: 25px;
 
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 
-    z-index: 3;
+  z-index: 3;
 }
 
 .card-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-    padding: 12px 20px;
+  padding: 12px 20px;
 
-    border-radius: 30px;
-    background: #fff;
-    color: #000;
+  border-radius: 30px;
+  background: #fff;
+  color: #000;
 
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
 
-    white-space: nowrap;
+  white-space: nowrap;
 }
-
 
 .card-bottom p {
-    color: #fff;
-    font-size: 16px;
-    line-height: 1.4;
-    margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
 }
 
-
-
-
 .footnotes {
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 25px 20px 40px;
-    color: #6e6e73;
-    font-size: 12px;
-    line-height: 1.4;
-    background-color: #f5f5f7;
-    border-bottom: 1px solid #d2d2d7;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 25px 20px 40px;
+  color: #6e6e73;
+  font-size: 12px;
+  line-height: 1.4;
+  background-color: #f5f5f7;
+  border-bottom: 1px solid #d2d2d7;
 }
 
 .footnotes-list,
 .additional-notes {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .footnotes li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .additional-notes {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .additional-notes li {
-    padding-left: 5px;
-    list-style: none;
+  padding-left: 5px;
+  list-style: none;
 }
 
 .apple-card-note p {
-    margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 
 .apple-card-note p:last-child {
-    margin-bottom: 0;
-    
+  margin-bottom: 0;
 }
 
 .footnotes a {
-    color: #424245;
-    text-decoration: underline;
+  color: #424245;
+  text-decoration: underline;
 }
 
 .footnotes a:hover {
-    color: #000;
+  color: #000;
 }
-
-
-
 
 /* footer section */
 
 .apple-footer {
   background-color: #f5f5f7;
   color: #1d1d1f;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
   font-size: 12px;
   line-height: 1.5;
   padding: 20px 0;
@@ -646,7 +565,6 @@ color:#fff;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 
 .apple-footer__links {
   display: grid;
@@ -697,7 +615,6 @@ color:#fff;
   text-decoration: underline;
 }
 
-
 .apple-footer__bottom {
   display: flex;
   flex-wrap: wrap;
@@ -728,4 +645,241 @@ color:#fff;
 
 .apple-footer__locale {
   color: #424245;
+}
+
+.mobile-header {
+  display: none;
+}
+.mobile-bottom-image {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .desktop-header > nav ul {
+    gap: 20px;
+  }
+  nav ul > li > a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+  }
+
+  .mobile-logo > a > img {
+    height: 50px;
+    filter: brightness(0) invert(1);
+    margin-top: 4px;
+  }
+  .mobile-header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 38px;
+  }
+  .hero-bottom-image img {
+    height: 300px;
+    top: 33px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .hero-bottom-image {
+    display: none;
+  }
+  .mobile-bottom-image {
+    display: block;
+  }
+
+  .mobile-bottom-image {
+    position: absolute;
+    width: 100%;
+    max-width: 270px;
+    left: 30%;
+  }
+
+  .mobile-bottom-image img {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    top: -67px;
+    left: 0px;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+  .mobile-bottom-image {
+    position: absolute;
+    width: 100%;
+    max-width: 270px;
+    left: 26%;
+  }
+
+  .mobile-bottom-image img {
+        position: absolute;
+        width: 100%;
+        height: 370px;
+        top: 10px;
+  }
+
+  
+.hero-section {
+ height: 580px;
+}
+.hero-top-content h2 {
+    font-size: 33px;
+}
+
+    .apple-footer__links {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+    }
+.primary-btn {
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+
+.secondary-btn {
+  padding: 10px 15px;
+  font-size: 13px;
+}
+.mobile-section-heading h2 {
+    font-size: 36px;
+}
+.mobile-section-heading h3 {
+    font-size: 28px;
+  
+}
+.mobile-section-heading > p {
+  font-size: 12px;
+ margin-top: 10px;
+}
+
+.mobile-img-div {
+   width: 200px;
+    margin-top: 20px;
+   position: relative;
+}
+.watch-section {
+   height:350px
+}
+.watch-content-box1 {
+    bottom: 78px;
+}
+.watch-content-box2{
+  position: relative;
+  top:45px;
+}
+.watch-content-box1 > h2 {
+    font-size: 32px;    
+}
+.watch-content-box1 img {
+    filter: brightness(0) invert(1);
+    width: 30px;
+}
+.watch-content-box2 h3 {
+    font-size: 15px;
+}
+.tech-row {
+   flex-wrap: nowrap;
+}
+.tech-card {
+    height: 250px;
+    background-position: bottom;   
+}
+.watch-section-content {
+    height: 200px;
+}
+
+.cards-section > h2 {
+  
+    font-size: 32px;
+  
+}
+
+}
+
+@media screen and (max-width: 440px) {
+ .apple-footer__links {
+    
+        flex-direction: column;
+       
+    }
+
+       .mobile-bottom-image {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+.mobile-bottom-image {
+        left: 15%;
+    }
+
+    .mobile-section-heading > p {
+        font-size: 13px;
+        margin-top: 10px;
+        margin: 11px auto;
+        width: 200px;
+    }
+.tech1 .tech-content h2 {
+    color: #fff;
+    font-size: 17px;
+}
+.tech-buttons {
+    flex-direction: column;
+}
+.tech-content p {
+    font-size: 13px;
+}
+
+.tech-buttons a {
+    height: 33px;
+    height: 37px;
+    font-size: 13px;
+}
+
+.tech-content h2 {
+    font-size: 22px;
+    
+}
+
+.card-bottom {
+    flex-direction: column;
+}
+
+.card-bottom p {
+    text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 376px) {
+
+.mobile-img-div {
+    width: 250px;
+  
+    margin: 0 auto;
+}
+    .mobile-bottom-image {
+        max-width: 270px;
+        left: 15%;
+    }
+        .apple-footer__links {
+    
+        flex-direction: column;
+       
+    }
+  
 }
