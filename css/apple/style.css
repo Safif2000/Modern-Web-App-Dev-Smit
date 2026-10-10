@@ -822,6 +822,9 @@ li > a > img {
 }
 
 @media screen and (max-width: 400px) {
+  .desktop-header{
+    display: none;
+  }
 .mobile-bottom-image {
         left: 15%;
     }
@@ -861,6 +864,10 @@ li > a > img {
 .card-bottom p {
     text-align: center;
 }
+
+    .hero-bottom-image {
+        display: none;
+    }
 
 }
 
