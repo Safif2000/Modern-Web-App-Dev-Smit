@@ -1113,103 +1113,7 @@ nav ul li a {
   right: 17px;
 }
 
-/* ================================
-   RESPONSIVE
-   ================================ */
 
-@media (max-width: 1000px) {
-  .freelancer-pricing-card {
-    flex-direction: column;
-  }
-
-  .freelancer-pricing-content,
-  .freelancer-pricing-visual {
-    width: 100%;
-  }
-
-  .freelancer-pricing-content {
-    min-height: 570px;
-  }
-
-  .freelancer-pricing-inner {
-    padding: 90px 45px 60px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .freelancer-pricing-visual {
-    min-height: 520px;
-  }
-}
-
-@media (max-width: 600px) {
-  .freelancer-pricing-section {
-    padding: 10px;
-  }
-
-  .freelancer-pricing-card {
-    border-radius: 22px;
-  }
-
-  .freelancer-pricing-inner {
-    padding: 60px 25px 45px;
-  }
-
-  .freelancer-pricing-inner h2 {
-    font-size: 40px;
-    letter-spacing: -1.8px;
-  }
-
-  .freelancer-pricing-inner p {
-    margin-top: 28px;
-    font-size: 17px;
-  }
-
-  .freelancer-pricing-input {
-    margin-top: 30px;
-  }
-
-  .freelancer-pricing-input textarea {
-    height: 130px;
-    padding-right: 25px;
-  }
-
-  .freelancer-pricing-input button {
-    min-width: 110px;
-  }
-
-  .freelancer-pricing-visual {
-    min-height: 430px;
-  }
-
-  .freelancer-cost-card {
-    width: 94%;
-    height: 255px;
-  }
-
-  .freelancer-cost-title {
-    font-size: 23px;
-  }
-
-  .freelancer-price {
-    top: 35px;
-    min-width: 82px;
-    height: 42px;
-    font-size: 16px;
-  }
-
-  .freelancer-price-left {
-    left: 45px;
-  }
-
-  .freelancer-price-right {
-    right: 45px;
-  }
-
-  .freelancer-chart-label {
-    font-size: 14px;
-  }
-}
 
 .achievements {
   position: relative;
@@ -1226,24 +1130,6 @@ nav ul li a {
   margin-top: 32px;
 }
 
-/* .background-img-box{
-  position: absolute;
-
-} */
-/* .background.background-img-box {
-        background-position: center -20%;
-    }
-    .background {
-        position: absolute;
-        top: 0;
-        left: 48%;
-        transform: translate(-50%);
-        width: 100vw;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: center -80%;
-    } */
-
 .background-img-box {
   position: absolute;
   bottom: 264px;
@@ -1252,7 +1138,7 @@ nav ul li a {
   width: 100vw;
   height: 100%;
   background-repeat: no-repeat;
-  z-index: -1; /* Text aur cards ke piche rakhne ke liye */
+  z-index: -1;
   background-image:
     linear-gradient(
       to bottom,
@@ -1433,17 +1319,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Responsive View */
-@media (max-width: 768px) {
-  .pricing-cards-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .pricing-card {
-    max-width: 100%;
-  }
-}
-
 .testimonials-section {
   max-width: 1278px;
   margin: 60px auto;
@@ -1526,18 +1401,8 @@ nav ul li a {
   object-fit: cover;
 }
 
-/* Responsive View */
-@media (max-width: 992px) {
-  .testimonial-card {
-    flex: 0 0 calc((100% - 20px) / 2);
-  }
-}
 
-@media (max-width: 600px) {
-  .testimonial-card {
-    flex: 0 0 100%;
-  }
-}
+
 
 .freelancer {
   padding: 40px 0px;
@@ -1761,12 +1626,162 @@ nav ul li a {
 .mobile-header {
   display: none;
 }
-
-
+.mobile-serach-icon{
+  display: none;
+}
 
 /* Responsiveness */
 
+@media (max-width: 1260px){
+
+.search-bar {
+    width: 176px;
+  
+}
+.nav-right {
+    width: 360px;
+
+}
+.main {
+  max-width: 1080px; 
+}
+.clients-rows {
+   
+    gap: 50px;
+   
+}
+
+}
+
+
+@media (max-width: 1032px){
+  .search-bar {
+  display: none;
+}
+ .main {
+        max-width: 866px;
+    }
+.mobile-serach-icon{
+  display: block;
+}
+ .nav-right {
+        width: 190px;
+        white-space: nowrap;
+    }
+
+.clients-rows {
+    gap: 32px;
+    flex-wrap: nowrap;
+}
+}
+
+@media (max-width: 1024px){
+  .main {
+        max-width: 852px;
+    }
+
+.search-bar {
+  display: none;
+}
+
+.mobile-serach-icon{
+  display: block;
+}
+
+      .nav-right {
+        width: 190px;
+        white-space: nowrap;
+    }
+
+.clients-rows {
+    gap: 32px;
+    flex-wrap: nowrap;
+}
+}
+
+
+
+@media (max-width: 1000px) {
+  .freelancer-pricing-card {
+    flex-direction: column;
+  }
+
+  .freelancer-pricing-content,
+  .freelancer-pricing-visual {
+    width: 100%;
+  }
+
+  .freelancer-pricing-content {
+    min-height: 570px;
+  }
+
+  .freelancer-pricing-inner {
+    padding: 90px 45px 60px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .freelancer-pricing-visual {
+    min-height: 520px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .testimonial-card {
+    flex: 0 0 calc((100% - 20px) / 2);
+  }
+  header {
+    z-index: 1000;
+    background: #ffffff;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+  .mobile-logo {
+    display: inline-flex;
+    width: 80px;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+     .mobile-header-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+  .mobile-header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+  }
+
+  .mobile-logo > a > svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
+   .pricing-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-card {
+    max-width: 100%;
+  }
   header {
     z-index: 1000;
     background: #ffffff;
@@ -1901,6 +1916,79 @@ padding: 20px;
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .freelancer-pricing-section {
+    padding: 10px;
+  }
+
+  .freelancer-pricing-card {
+    border-radius: 22px;
+  }
+
+  .freelancer-pricing-inner {
+    padding: 60px 25px 45px;
+  }
+
+  .freelancer-pricing-inner h2 {
+    font-size: 40px;
+    letter-spacing: -1.8px;
+  }
+
+  .freelancer-pricing-inner p {
+    margin-top: 28px;
+    font-size: 17px;
+  }
+
+  .freelancer-pricing-input {
+    margin-top: 30px;
+  }
+
+  .freelancer-pricing-input textarea {
+    height: 130px;
+    padding-right: 25px;
+  }
+
+  .freelancer-pricing-input button {
+    min-width: 110px;
+  }
+
+  .freelancer-pricing-visual {
+    min-height: 430px;
+  }
+
+  .freelancer-cost-card {
+    width: 94%;
+    height: 255px;
+  }
+
+  .freelancer-cost-title {
+    font-size: 23px;
+  }
+
+  .freelancer-price {
+    top: 35px;
+    min-width: 82px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .freelancer-price-left {
+    left: 45px;
+  }
+
+  .freelancer-price-right {
+    right: 45px;
+  }
+
+  .freelancer-chart-label {
+    font-size: 14px;
+  }
+  .testimonial-card {
+    flex: 0 0 100%;
   }
 }
 
