@@ -806,6 +806,67 @@ address {
   color: #ffffff;
 }
 
+
+@media screen and (max-width:1024px){
+.logoheader-div {
+    width: 100px;
+    height: 60px;
+}
+nav button {
+    font-size: 14px;
+    padding: 12px 22px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+      nav {
+    padding: 9px 27px;
+  }
+
+  .mobile-bars {
+    display: block;
+    border-radius: 0px;
+    border: none;
+    font-size: 20px;
+  }
+
+  /* Logo */
+
+  .logoheader-div {
+    width: 100px;
+    height: 60px;
+    margin-top: 5px;
+  }
+
+  .logoheader-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* Navigation */
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    display: none;
+  }
+.cards-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+.maincard > a > button {
+    font-size: 14px;
+    height: 11%;
+}
+}
+
 @media screen and (max-width: 576px) {
   nav {
     padding: 9px 27px;
@@ -972,9 +1033,9 @@ address {
 }
 
 @media screen and (max-width: 440px) {
-  /* .branch-heading {
-        width: 320px;
-    } */
+ .restaurants-franchise {
+    padding: 38px;
+}
   .village-heading h2 {
     font-size: 32px;
   }
@@ -1030,8 +1091,36 @@ address {
   .branch-heading {
         width: 220px;
     }
+    .branch1-address > a > button, .branch2-address > a > button {
+    font-size: 14px;
+    padding: 12px 19px;
+    
+}
     .express-heading {
       
         width: 220px;
     }
+    .express-card-row1 > .maincard {
+        width: 300px;
+    }
+    .village-franchise {
+    padding: unset;
+}
+    .village-address > h2 span, .village-address > h2 span {
+    font-size: 32px;   
+}
+.village-address > h2, .village-address > h2 {
+    font-size: 32px;
+  
+}
+.maincard h2 {
+  
+    font-size: 19px;
+}
+
+.new-express-franchise {
+  padding:12px;
+}
+
+
 }
