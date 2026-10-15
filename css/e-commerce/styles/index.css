@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  z-index: 100;
+}
+
+.navbar-brand.logo {
+  font-weight: 800;
+  font-size: 26px;
+  margin-right: 80px;
+}
+.navbar-collapse {
+  background-color: transparent;
+  padding: 20px;
+}
+.nav-item {
+  font-weight: 600;
+}
+
+.carousel-img {
+  height: 650px;
+  object-fit: cover;
+  background-position: center;
+}
+
+/* Headings Styling */
+#man h1,
+#women h1,
+#kid h1 {
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Flex Container for Product Cards */
+.card-parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Card Styling Structure */
+.card {
+  width: 18rem;
+  transition: 0.2s ease-in;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card > .card-body > .btn-primary{
+  width: 100%;
+}
+
+.serach-form-box{
+  display: flex;
+}
+
+@media screen and (max-width:768px) {
+  .navbar-collapse {
+  background-color: #fff;
+  padding: 20px;
+}
+.form-control {
+    display: block;
+    width: 30%;
+   
+}
+}
+
+@media screen and (max-width:576px) {
+  .navbar-collapse {
+  background-color: #fff;
+  padding: 20px;
+}
+}

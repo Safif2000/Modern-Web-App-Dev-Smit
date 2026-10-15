@@ -1,0 +1,101 @@
+
+
+body{
+    background-image: linear-gradient(#212126 0% 69.79%, #212126 99.99% 100%);
+}
+
+.gallery-section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(14, 50px);
+  gap: 10px;
+}
+
+/* Common card */
+.grid-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hover lift */
+.grid-item:hover {
+  transform: translateY(-8px);
+}
+
+
+/* LEFT TOP */
+.img-1 {
+  grid-column: 1 / 5;
+  grid-row: 5 / 8;
+}
+
+/* LEFT BOTTOM */
+.img-2 {
+  grid-column: 1 / 5;
+  grid-row: 8 / 11;
+}
+
+/* TOP CENTER */
+.img-3 {
+  grid-column: 5 / 8;
+  grid-row: 2/ 5;
+}
+
+/* CENTER BIG IMAGE */
+.img-4 {
+  grid-column: 5 / 10;
+  grid-row: 5 / 11;
+}
+
+/* BOTTOM LEFT-CENTER */
+.img-5 {
+  grid-column: 4 / 7;
+  grid-row: 11 / 15;
+}
+
+/* BOTTOM CENTER */
+.img-6 {
+  grid-column: 7 / 10;
+  grid-row: 11 / 15;
+}
+
+/* TOP RIGHT */
+.img-7 {
+  grid-column: 8 / 12;
+  grid-row: 1 / 5;
+}
+
+/* RIGHT CENTER TOP */
+.img-8 {
+  grid-column: 10 / 14;
+  grid-row: 5 / 7;
+}
+
+/* RIGHT CENTER BOTTOM */
+.img-9 {
+  grid-column: 10 / 14;
+  grid-row: 7 / 14;
+}

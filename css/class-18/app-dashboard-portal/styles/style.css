@@ -5,7 +5,6 @@
 }
 
 body {
-  /* background-color: #ffffff; */
   background-color: #f0f2f5;
   
 }
@@ -486,6 +485,30 @@ background-color: #f0f2f5;
 .birthday-div i{
   font-size: 24px;
 }
+@media screen and (max-width:376px){
+.header-center_portion{
+display: none;
+}
+
+.header_searchbox{
+  display: none;
+}
+
+}
+
+@media screen and (max-width:768px){
+   .left-sidebar , .right-sidebar{
+    display: none;
+   }
+.header-center_portion{
+display: none;
+}
+
+.header_searchbox{
+  display: none;
+}
+
+  }
 
 
 
