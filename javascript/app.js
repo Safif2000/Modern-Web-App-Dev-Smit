@@ -325,7 +325,7 @@
 
 // q13
 // var favSnack = "chocolate chip";
-// var currentAge = 15;
+// var currentAge = 26;
 // var maxAge = 65;
 // var amountPerDay = 3;
 
@@ -374,4 +374,56 @@
 // document.write("result is " + result);
 
 
+// q3
 
+// var userName = prompt("Enter your name");
+// alert("WELCOME"+ " " + userName)
+
+// q5
+
+// var num = prompt("Enter a number:", 5);
+
+// document.write("<h2>Table of " + num + "</h2>");
+
+// document.write(num + " x 1 = " + (num * 1) + "<br>");
+// document.write(num + " x 2 = " + (num * 2) + "<br>");
+// document.write(num + " x 3 = " + (num * 3) + "<br>");
+// document.write(num + " x 4 = " + (num * 4) + "<br>");
+// document.write(num + " x 5 = " + (num * 5) + "<br>");
+// document.write(num + " x 6 = " + (num * 6) + "<br>");
+// document.write(num + " x 7 = " + (num * 7) + "<br>");
+// document.write(num + " x 8 = " + (num * 8) + "<br>");
+// document.write(num + " x 9 = " + (num * 9) + "<br>");
+// document.write(num + " x 10 = " + (num * 10) + "<br>");
+
+// q6
+
+// a) 
+// var subject1 = prompt("Enter first subject name:");
+// var subject2 = prompt("Enter second subject name:");
+// var subject3 = prompt("Enter third subject name:");
+
+// b) 
+// var totalMarksPerSubject = 100;
+
+// c) & d) 
+// var marks1 = +prompt("Enter obtained marks for " + subject1 + ":");
+// var marks2 = +prompt("Enter obtained marks for " + subject2 + ":");
+// var marks3 = +prompt("Enter obtained marks for " + subject3 + ":");
+
+// e)
+// var perc1 = (marks1 / totalMarksPerSubject) * 100;
+// var perc2 = (marks2 / totalMarksPerSubject) * 100;
+// var perc3 = (marks3 / totalMarksPerSubject) * 100;
+
+// var grandTotal = totalMarksPerSubject * 3;
+// var totalObtained = marks1 + marks2 + marks3;
+// var overallPercentage = (totalObtained / grandTotal) * 100;
+ 
+// document.write("<table>");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+// document.write("<tr><td>" + subject1 + "</td><td>" + totalMarksPerSubject + "</td><td>" + marks1 + "</td><td>" + perc1 + "%</td></tr>");
+// document.write("<tr><td>" + subject2 + "</td><td>" + totalMarksPerSubject + "</td><td>" + marks2 + "</td><td>" + perc2 + "%</td></tr>");
+// document.write("<tr><td>" + subject3 + "</td><td>" + totalMarksPerSubject + "</td><td>" + marks3 + "</td><td>" + perc3 + "%</td></tr>");
+// document.write("<tr><td></td><td><b>" + grandTotal + "</b></td><td><b>" + totalObtained + "</b></td><td><b>" + overallPercentage + "%</b></td></tr>");
+// document.write("</table>");
