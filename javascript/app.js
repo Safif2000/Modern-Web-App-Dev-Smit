@@ -250,7 +250,6 @@
 // var celsiusResult = ((fahrenheitTemp - 32) * 5) / 9;
 // document.write(fahrenheitTemp + "°F is " + celsiusResult + "°C");
 
-
 // q7
 
 // var item1Price = 650;
@@ -269,7 +268,6 @@
 // document.write("Shipping Charges " + shippingCharges + "<br><br>");
 // document.write("Total cost of your order is " + totalCost);
 
-
 // q8
 
 // var totalMarks = 980;
@@ -281,7 +279,6 @@
 // document.write("Marks obtained: " + marksObtained + "<br>");
 // document.write("Percentage: " + percentage + "%");
 
-
 // q9
 
 // var totalPKR = (10 * 104.80) + (25 * 28);
@@ -289,13 +286,10 @@
 // document.write("<h1>Currency in PKR</h1>");
 // document.write("Total Currency in PKR: " + totalPKR);
 
-
 // q10
 
 // var initialNum = 5;
 // var result = ((initialNum + 5) * 10) / 2;
-
-
 
 // q11
 
@@ -321,8 +315,6 @@
 // document.write("The circumference is: " + circumference + "<br>");
 // document.write("The area is: " + area);
 
-
-
 // q13
 // var favSnack = "chocolate chip";
 // var currentAge = 26;
@@ -339,7 +331,6 @@
 // document.write("You will need " + totalNeeded + " " + favSnack + " to last you until the ripe old age of " + maxAge);
 
 // ---->chapter 5 ends here math expression<----
-
 
 // ---->chapter 6 starts here math expression<----
 // q1
@@ -362,8 +353,6 @@
 // document.write("The value of a-- is: " + (a--) + "<br>");
 // document.write("Now the value of a is: " + a + "<br>");
 
-
-
 // q2
 
 // var a = 2, b = 1;
@@ -372,7 +361,6 @@
 // document.write("a is " + a + "<br>");
 // document.write("b is " + b + "<br>");
 // document.write("result is " + result);
-
 
 // q3
 
@@ -398,15 +386,15 @@
 
 // q6
 
-// a) 
+// a)
 // var subject1 = prompt("Enter first subject name:");
 // var subject2 = prompt("Enter second subject name:");
 // var subject3 = prompt("Enter third subject name:");
 
-// b) 
+// b)
 // var totalMarksPerSubject = 100;
 
-// c) & d) 
+// c) & d)
 // var marks1 = +prompt("Enter obtained marks for " + subject1 + ":");
 // var marks2 = +prompt("Enter obtained marks for " + subject2 + ":");
 // var marks3 = +prompt("Enter obtained marks for " + subject3 + ":");
@@ -419,7 +407,7 @@
 // var grandTotal = totalMarksPerSubject * 3;
 // var totalObtained = marks1 + marks2 + marks3;
 // var overallPercentage = (totalObtained / grandTotal) * 100;
- 
+
 // document.write("<table>");
 // document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
 // document.write("<tr><td>" + subject1 + "</td><td>" + totalMarksPerSubject + "</td><td>" + marks1 + "</td><td>" + perc1 + "%</td></tr>");
