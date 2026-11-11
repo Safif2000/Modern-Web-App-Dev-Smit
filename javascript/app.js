@@ -332,7 +332,10 @@
 
 // ---->chapter 5 ends here math expression<----
 
-// ---->chapter 6 starts here math expression<----
+
+
+// ---->chapter 6-9 starts here math expression<----
+
 // q1
 
 // var a = 10;
@@ -415,3 +418,289 @@
 // document.write("<tr><td>" + subject3 + "</td><td>" + totalMarksPerSubject + "</td><td>" + marks3 + "</td><td>" + perc3 + "%</td></tr>");
 // document.write("<tr><td></td><td><b>" + grandTotal + "</b></td><td><b>" + totalObtained + "</b></td><td><b>" + overallPercentage + "%</b></td></tr>");
 // document.write("</table>");
+
+
+// <----chapter 6-9 ends here math expression--->
+
+
+// <----chapter 9-11 starts here user input and conditional statement---->
+
+// q1
+
+//  var x = prompt("enter city name");
+//  if (x === "karachi") {
+//      console.log("Welcome to city of lights");
+//  }
+
+
+// q2
+
+// var gender = prompt("Enter your gender (male/female):");
+// if(gender=== "male") {
+//     console.log("Good Morning Sir.");
+//      alert("Good Morning Sir.");
+
+// }else if(gender === "female") {
+//     console.log("Good Morning Ma'am.");
+//    alert("Good Morning Ma'am.");
+// }
+
+
+// q3
+//  var signalColor = prompt("Enter traffic signal color (red/yellow/green):");
+// if(signalColor === "red") {
+//     console.log("Must Stop"); 
+// } else if(signalColor === "yellow") {
+//     console.log("Ready to Move"); 
+// } else if(signalColor === "green") {
+//     console.log("Move Now"); 
+// }
+
+// q4
+
+// var fuel = prompt("Enter remaining fuel in liters:");
+
+// if (fuel < 0.25) {
+//     alert("Please refill the fuel in your car");
+// }else {
+//     alert("You have enough fuel.");
+// }
+
+//q5
+// part a
+
+// var a = 4;
+// if (++a === 5) {
+//   alert("given condition for variable a is true");
+// }
+
+// part b
+// var b = 82;
+// if (b++ === 83) {
+//   alert("given condition for variable b is true");
+// }
+
+
+//part c
+
+// var c = 12;
+// if (c++ === 13) {
+//   alert("condition 1 is true");
+// }
+// if (c === 13) {
+//   alert("condition 2 is true");
+// }
+// if (++c < 14) {
+//   alert("condition 3 is true");
+// }
+// if (c === 14) {
+//   alert("condition 4 is true");
+// }
+
+//part d
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//   alert("The cost equals");
+// }
+
+
+//part e
+
+// if (true) {
+//   alert("True");
+// }
+// if (false) {
+//   alert("False");
+// }
+
+
+//part f
+
+// if ("car" < "cat") {
+//   alert("car is smaller than cat");
+// }
+
+
+//q6
+
+// var subject1 = +prompt("Enter marks obtained in Subject 1:");
+// var subject2 = +prompt("Enter marks obtained in Subject 2:");
+// var subject3 = +prompt("Enter marks obtained in Subject 3:");
+
+// var totalMarks = 300; 
+// var obtainedMarks = subject1 + subject2 + subject3;
+// var percentage = (obtainedMarks / totalMarks) * 100;
+
+// if (percentage >= 80) {
+//     alert("Grade: A-one\nRemarks: Excellent");
+// }  
+// if (percentage >= 70 && percentage < 80) {
+//     alert("Grade: A\nRemarks: Good");
+// }
+// if (percentage >= 60 && percentage < 70) {
+//     alert("Grade: B\nRemarks: You need to improve");
+// }
+// if (percentage < 60) {
+//     alert("Grade: Fail\nRemarks: Sorry");
+// }
+
+
+// q7
+
+// var secretNumber = 7;
+// var userGuess = +prompt("Guess the secret number (between 1 and 10):"); 
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer.");
+// }   
+// if (userGuess === secretNumber + 1 || userGuess === secretNumber - 1) {
+//     alert("Close enough to the correct answer.");
+// }
+
+// q8
+
+// var number = +prompt("Enter a number to check if it's divisible by 3:"); 
+// if (number % 3 === 0) {
+//     alert("The number is divisible by 3.");
+// } else {
+//     alert("The number is not divisible by 3.");
+// }
+
+//q9
+
+// var number = +prompt("Enter a number to check if it's even or odd:");
+// if (number % 2 === 0) {
+//     alert("The number is even.");
+// } else {
+//     alert("The number is odd.");
+// }
+
+//q10
+
+// var temperature = +prompt("Enter the temperature:");
+// if (temperature > 40) {
+//     alert("It is too hot outside.");     
+// if (temperature > 30 && temperature <= 40) {
+//     alert("The Weather today is Normal.");
+// }
+// if (temperature > 20 && temperature <= 30) {
+//     alert("Today's Weather is cool.");
+// }
+// if (temperature > 10 && temperature <= 20) {
+//     alert("OMG! Today's weather is so Cool.");
+// }
+
+
+//q11
+
+// var firstNumber = +prompt("Enter the first number:");
+// var secondNumber = +prompt("Enter the second number:");
+// var operation = prompt("Enter the operation (+, -, *, /, %):");
+// if (operation === "+") {
+//     alert("Result: " + (firstNumber + secondNumber));
+// }  
+
+// if (operation === "-") {
+//     alert("Result: " + (firstNumber - secondNumber));
+// }
+// if (operation === "*") {
+//     alert("Result: " + (firstNumber * secondNumber));
+// }
+// if (operation === "/") {
+//     alert("Result: " + (firstNumber / secondNumber));
+// }
+// if (operation === "%") {
+//     alert("Result: " + (firstNumber % secondNumber));
+// }   
+
+
+// chapter 9-11 ends here user input and conditional statement---->
+
+
+// <---chapter 12-13 starts here if...else & else if statement, testing set of conditions---->
+
+//q1
+// var char = prompt("Enter a character:");
+// if (char >= 'A' && char <= 'Z') {
+//     alert("The character is an uppercase letter.");
+// }  else if (char >= 'a' && char <= 'z') {
+//     alert("The character is a lowercase letter.");
+// }   
+// else if (char >= '0' && char <= '9') {
+//     alert("The character is a digit.");
+// } else {
+//     alert("The character is a special character.");
+// }
+
+//q2
+
+// var num1 = +prompt("Enter the first integer:");
+// var num2 = +prompt("Enter the second integer:"); 
+// if (num1 > num2) {
+//     alert("The larger number is: " + num1);
+// } else if (num2 > num1) {
+//     alert("The larger number is: " + num2);
+// } else {
+//     alert("Both numbers are equal.");
+// }
+
+//q3
+// var number = +prompt("Enter a number:");
+// if (number > 0) {
+//     alert("The number is positive.");
+// } else if (number < 0) {
+//     alert("The number is negative.");
+// } else {
+//     alert("The number is zero.");
+// }
+
+//q4
+
+// var char = prompt("Enter a character:"); 
+// if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' || char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U') {
+//     alert("The character is a vowel.");
+// } else {
+//     alert("The character is not a vowel.");
+// }
+
+//q5
+
+// var correctPassword = "yourPassword"; // Replace with your actual password
+// var userPassword = prompt("Enter your password:");
+// if (userPassword === "") {
+//     alert("Please enter your password.");
+// } else if (userPassword === correctPassword) {
+//     alert("Correct! The password you entered matches the original password.");
+// } else {
+//     alert("Incorrect password.");
+// }
+
+//q6
+
+// var greeting;
+
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else if (hour >= 18) {
+//     greeting = "Good evening";
+// }
+// alert(greeting);
+
+
+//q7
+
+// var time = +prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM):");
+// if (time >= 0000 && time < 1200) {
+//     alert("Good morning!");
+// } else if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon!");
+// } else if (time >= 1700 && time < 2100) {
+//     alert("Good evening!");
+// } else if (time >= 2100 && time <= 2359) {
+//     alert("Good night!");
+// } else {
+//     alert("Invalid time entered.");
+// }
